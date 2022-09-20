@@ -15,7 +15,7 @@ def fare(distance):
     multiplication_factor = distance_in_meters//140
     return ((multiplication_factor*added_fare)+base_fare)
 
-print(fare(12))
+print(fare(28))
 
 
 
